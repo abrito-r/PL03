@@ -6,26 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulário de contacto CESAE</h1>
-    <form action="" method="get">
+    
+    <fieldset> <legend><h3>Formulário de Contacto CESAE</h3></legend><form action="" method="get">
         <div>
-            <label for="Nome">Nome</label>
-        <input type="text" required>
-    </div>
-    <div>
-        <label for="Email">Email</label>
-        <input type="email" required>
-    </div>
-    <div>
-        <label for="Genero">Genero</label>
-        <input type="">
-    </div>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="form-nome" required>
+        </div>
+        <div>
+            <label for="Email"> Email</form></label>
+            <input type="email" name="form-email" id="" placeholder="@gmail.com">
+        </div>
+        <div>
+            <label for="Genero"> Genero</label> <br>
+            <input type="radio"> Masculino<br>
+            <input type="radio"> Feminino<br>
+            <input type="radio">Outros
+        </div>
+        <div>
+            <label for="Data de nascimento">Data Atual</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="turma"></label>turma <input type="select"  value="Web Developer & Mobile"  value= "Super Nerd"> 
+            
+        </div>
         <div>
             <input type="submit">
         </div>
-        <label for="Data de nascimento"></label>
-        <input type="date">
         
+        </fieldset>
     </form>
 </body>
 </html>
