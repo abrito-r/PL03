@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <!-- Favicon-->
+     <link rel="icon" type="webp" sizes="16x16" href="Media/favicon.webp">
 </head>
 <body>
-    
-    <fieldset> <legend><h3>Formulário de Contacto CESAE</h3></legend><form action="" method="get">
+   <header style="text-align: center;">
+    <img src="Media/cesae-digital-logo.svg" alt="">
+    </header><br>
+    <nav style="text-align: center;">
+        <a href="https://www.cesaedigital.pt/fldrSite/pages/aboutUs.aspx">Ir para a pagina inicial</a> <a href="multimedia.html"> Multimedia importante</a> <a href="form.html"> Formulario de Contacto</a><br>
+        <a href="https://www.instagram.com/cesae.digital/"target="_blank"> <img src="Media/insta.jpg" alt="" alt= "insta" width=25></a>
+        <a href="https://www.facebook.com/CesaeDigital" target="_blank"> <img src="Media/face.avif" alt="face" width=25></a>
+        <a href="https://www.youtube.com/@cesaedigital" target="_blank"> <img src="Media/youtube.jpg=n-w1920-h1080-fcrop64=1,00000000ffffffff-rw" alt="youtube" width=65></a>
+        <a href="https://www.linkedin.com/school/cesae-digital/" target="_blank"> <img src="Media/linkdin.avif" alt="linkdin" width=25></a> <form action="" method="get">
+            <hr>
+    <fieldset style="text-align: center;"> <legend><h3>Formulário de Contacto CESAE</h3></legend>
         <div>
             <label for="Nome">Nome:</label>
-            <input type="text" name="form-nome" required>
+            <input type="text" name="form-nome" placeholder="Insira o seu nome" required>
         </div>
         <div>
-            <label for="Email"> Email</form></label>
+            <label for="Email"> Email</label>
             <input type="email" name="form-email" id="" placeholder="@gmail.com">
         </div><br>
         <div>
@@ -28,14 +39,27 @@
             <input type="date">
         </div>
         <div>
-            <label for="turma"></label>turma <input type="select" name="turma" value="Web Developer & Mobile"> <input type="select" name="turma" id=""> "Super Nerd"> 
-            
+            <label for="Turma"> Turma
+                <select name="curso" id="">
+                    <option value="Web Developer & Mobile"> Web Developer & Mobile</option> 
+                    <option value="Super nerd"> Super Nerd</option> </select>
+            </label>            
+        </div> <br>
+        <div>
+            <label for="">Mensagem
+                <textarea name="" id="" cols="30" rows="3" ></textarea>
+            </label>    
         </div>
         <div>
+            <input type="reset" value="Limpar">
             <input type="submit">
         </div>
         
         </fieldset>
     </form>
+    <hr>
+    <footer>
+   <p>Desenvolvido por Armando</p>
+    </footer>
 </body>
 </html>
